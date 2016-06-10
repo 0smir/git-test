@@ -5,5 +5,10 @@
 	border: 2px solid #ea3c53;
 	box-sizing: border-box;
 	padding: 15px;
-	margin: 0 auto;
+	margin: 15px auto;
+}
+
+.block ul{
+	background-color: #b0c4de;
+	border: 1px solid #446ccf;
 }
