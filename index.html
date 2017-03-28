@@ -5,6 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<header class="blue">
+		<ul>
+			<li>Lorem</li>
+			<li>Aliquip</li>
+			<li>Tempor</li>
+			<li>Voluptate</li>
+		</ul>
+	</header>
 	<div class="block">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -22,6 +30,68 @@
 			<li>Lorem ipsum dolor sit amet, consectetur </li>
 		</ol>
 	</div>
+	<p class="new-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, distinctio dolor,
+		error expedita, minima modi odit quaerat recusandae repellat sint sunt totam! Expedita officia perferendis porro
+		suscipit voluptas! Eos, sint!</p>
+	<h1>Hello, World!</h1>
+	<p class="header-description">Lorem ipsum dolor.</p>
+	<!--<p class="header-description">Lorem ipsum dolor.</p>-->
+	<button class="btn">click</button>
+
+
+	<script>
+		var name = prompt("what is your name	", " ");
+		document.write(name);
+
+		var question = prompt("What is official name of JS?", " ");
+
+		if(question == "EcmaScript") {
+			alert("Right!");
+		} else {
+			alert("You are do not know nothing, John Snow!");
+		}
+
+		var number = prompt("Write number", " "),
+				answer = +number;
+
+		if(answer > 0) {
+			alert("number > 0");
+		}else if (answer == 0) {
+			alert( "number is 0");
+		}else {
+			alert("number < 0");
+		}
+
+	var logIn = prompt("Wright your Login", " ");
+		console.log(logIn);
+		if(logIn === "Olya"){
+			var adminPass = prompt("Wright your PassWord", " ");
+			if(adminPass === "admin"){
+				console.log("right pass!");
+			} else if (adminPass == null) {
+				alert("Why are you change your mind to enter???")
+			} else {
+				alert("Wrong PassWord!!!");
+			}
+		} else if (logIn == null){
+			alert("Cancel, by!");
+		} else {
+			alert("Who are you?");
+		}
+	var a = 3, b = 3, number;
+
+		number = (a+b<4) ? alert('Мало') : alert('Много');
+
+	var login = prompt("введите имя", " "), message;
+		login;
+	message = (login == 'Вася') ? 'Привет' :
+			(login == 'Директор') ? 'Здравствуйте' :
+					(login == '') ? 'Нет логина' :
+					'';
+
+	alert(message);
+
+	</script>
 
 </body>
 </html>
